@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { dispatch } from '../../Redux/store/store';
-import './Login.css'
-import { Link, NavLink, Outlet, useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { useFormik } from 'formik';
 import { schema } from '../../utilities/utilities';
 import { login, resetReducer } from '../../Redux/slice/login';
@@ -10,6 +9,7 @@ import { jwtDecode } from 'jwt-decode';
 import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer, toast } from 'react-toastify';
 import { CircularProgress } from '@mui/material';
+import './Login.scss'
 
 const Login = () => {
   const [buttonDisable, setButtonDisable] = useState(false)

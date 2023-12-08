@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { dispatch } from '../../Redux/store/store';
 import { Link, useNavigate } from 'react-router-dom';
-import './SignUp.css'
+import './SignUp.scss'
 import { useFormik } from 'formik'
 import { schema } from '../../utilities/utilities'
 import { resetReducer, signup } from '../../Redux/slice/signUp'

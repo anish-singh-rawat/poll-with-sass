@@ -1,7 +1,6 @@
-*{
-margin: 0%;
-padding: 0%;
-}
+$Blackcolor: black; 
+$Whitebackground : rgb(255, 255, 255);
+
 .containe-for-sub-box{
   width: 100%;
   margin: 0;
@@ -14,8 +13,8 @@ padding: 0%;
 
 .parent-form-div {
   width: 400px;
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
+  background-color: $Whitebackground;
+  color: $Blackcolor;
   border-radius: 3%;
 }
 
@@ -38,7 +37,7 @@ input{
 }
 .user-name-input {
   border: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid $Blackcolor;
   outline: none;
   width: 93%;
 }
@@ -48,7 +47,7 @@ input{
 }
 .user-password-input {
   border: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid $Blackcolor;
   outline: none;
   width: 93%;
 }
@@ -56,8 +55,8 @@ input{
 @media (max-width: 420px) {
     .parent-form-div {
         width: 350px;
-        background-color: rgb(255, 255, 255);
-        color: rgb(0, 0, 0);
+        background-color: $Whitebackground;
+        color: $Blackcolor;
         border-radius: 3%;
       }
       
@@ -66,8 +65,8 @@ input{
 @media (max-width: 380px) {
     .parent-form-div {
         width: 300px;
-        background-color: rgb(255, 255, 255);
-        color: rgb(0, 0, 0);
+        background-color: $Whitebackground;
+        color: r$Blackcolor;
         border-radius: 3%;
       }
 } 
@@ -75,8 +74,8 @@ input{
 @media (max-width: 320px) {
     .parent-form-div {
         width: 280px;
-        background-color: rgb(255, 255, 255);
-        color: rgb(0, 0, 0);
+        background-color: $Whitebackground;
+        color: $Blackcolor;
         border-radius: 3%;
       }
       

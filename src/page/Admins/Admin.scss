@@ -1,3 +1,8 @@
+$center : center;
+$colorblack : black;
+$commanPx : 20px;
+$commanBold : bold;
+
 .card-header{
     display: flex;
     justify-content: space-between;
@@ -10,26 +15,26 @@
     padding: 10px;
     border-radius: 15px;
     background-color: rgb(220, 220, 220);
-    color: black;
+    color: $colorblack;
 }
 .float-right{
-    font-size: 20px;
+    font-size: $commanPx;
     cursor: pointer;
-    font-weight: bold;
+    font-weight: $commanBold;
 }
 .data-container{
     height: 450px;
     overflow-y: scroll;
 }
 .input-radio-btn{
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid $colorblack;
 }
 @media (min-width: 600px) {
     .float-right{
         text-align: right;
-        font-size: 20px;
+        font-size: $commanPx;
         cursor: pointer;
-        font-weight: bold;
+        font-weight: $commanBold;
         position: relative;
         bottom: 42px;
     }
@@ -38,13 +43,13 @@
 @media (max-width: 475px) {
         .card-title{
             display: flex;
-            justify-content: center;
-            align-items: center;
+            justify-content: $center;
+            align-items: $center;
         }
     .card-header{
         display: block;
     }
     .shift-right{
-        margin-top: 20px;
+        margin-top: $commanPx;
     }
 }
