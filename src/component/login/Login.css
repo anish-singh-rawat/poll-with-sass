@@ -1,0 +1,83 @@
+*{
+margin: 0%;
+padding: 0%;
+}
+.containe-for-sub-box{
+  width: 100%;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(31, 31, 165);
+}
+
+.parent-form-div {
+  width: 400px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 3%;
+}
+
+form {
+  width: 80%;
+  margin: auto;
+}
+input{
+    font-size: 18px;
+}
+.form-top-heading {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.user-name-label-feild {
+  font-size: 20px;
+  font-weight: 600;
+}
+.user-name-input {
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  width: 93%;
+}
+.user-password-label-feild {
+  font-size: 20px;
+  font-weight: 600;
+}
+.user-password-input {
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  width: 93%;
+}
+
+@media (max-width: 420px) {
+    .parent-form-div {
+        width: 350px;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        border-radius: 3%;
+      }
+      
+} 
+
+@media (max-width: 380px) {
+    .parent-form-div {
+        width: 300px;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        border-radius: 3%;
+      }
+} 
+
+@media (max-width: 320px) {
+    .parent-form-div {
+        width: 280px;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        border-radius: 3%;
+      }
+      
+} 

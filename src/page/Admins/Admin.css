@@ -1,0 +1,50 @@
+.card-header{
+    display: flex;
+    justify-content: space-between;
+}
+.fa-regular, .fa-solid, .add-option{
+    cursor: pointer;
+}
+.input-form{
+    border: 1px solid rgb(166, 166, 166);
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgb(220, 220, 220);
+    color: black;
+}
+.float-right{
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.data-container{
+    height: 450px;
+    overflow-y: scroll;
+}
+.input-radio-btn{
+    border: 1px solid rgb(0, 0, 0);
+}
+@media (min-width: 600px) {
+    .float-right{
+        text-align: right;
+        font-size: 20px;
+        cursor: pointer;
+        font-weight: bold;
+        position: relative;
+        bottom: 42px;
+    }
+}
+
+@media (max-width: 475px) {
+        .card-title{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    .card-header{
+        display: block;
+    }
+    .shift-right{
+        margin-top: 20px;
+    }
+}
