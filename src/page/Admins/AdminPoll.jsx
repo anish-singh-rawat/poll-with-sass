@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useSelector } from 'react-redux';
 import { pollManage } from '../../Redux/slice/AdminPoll';
-import './Admin.css';
+import './Admin.scss';
 import { resetReducer } from '../../Redux/slice/listData';
 import { Link, useNavigate } from 'react-router-dom';
 import { DeleteTitle } from '../../Redux/slice/DeleteTitle';
